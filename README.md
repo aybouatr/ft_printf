@@ -33,6 +33,16 @@ In this project, you will:
    Prints the string argument.
 
    Example:
+   
+     ft_printf("%s", "Hello, World!");
+    Hello, World!
+## Format Specifiers Supported
+
+### 2. **%d / %i** - Integer:
+   Prints an integer (in decimal).
+
+   Example:
    ```c
-   ft_printf("%s", "Hello, World!");
-Hello, World!
+   ft_printf("%d", 42);
+   42
+
